@@ -11,7 +11,7 @@ Checkout this repo, install dependencies, then start the gulp process with the f
 
 ```
 > git clone https://github.com/nayeemahmed43/WeatherApp.git
-> cd ReduxSimpleStarter
+> cd WeatherApp
 > npm install
 > npm start
 ```
