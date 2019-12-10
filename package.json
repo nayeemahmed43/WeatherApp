@@ -4,14 +4,14 @@
   "description": "a weather application that shows temperature, pressure & humidity with graph of any city",
   "main": "index.js",
   "repository": "https://github.com/nayeemahmed43/WeatherApp.git",
-  "homepage":"https://nayeemahmed43.github.io/WeatherApp/",
+  "homepage": "https://nayeemahmed43.github.io/WeatherApp/",
   "scripts": {
     "start": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js",
     "test": "mocha --compilers js:babel-core/register --require ./test/test_helper.js --recursive ./test",
     "test:watch": "npm run test -- --watch",
     "build": "webpack -p --define process.env.NODE_ENV='\"production\"' --progress --colors",
-    "predeploy":"npm run build",
-    "deploy":"gh-pages -d build"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "author": "",
   "license": "ISC",
