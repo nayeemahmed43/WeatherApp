@@ -1,24 +1,18 @@
 # WeatherApp
 
+#### This Weather App gives the users weather forecast like Temperature,Pressure,Humidity. It has a search bar where User can search with particular city name for weather forecast. This app fetches weather data from third party weather API and shows it in the UI with three different column in a row named Temperature,Pressure,Humidity including google map & graph for the next five days.
 
-### Getting Started
 
-There are two methods for getting started with this repo.
+### Getting Started with Git
 
-#### Familiar with Git?
 Checkout this repo, install dependencies, then start the gulp process with the following:
 
 ```
 > git clone https://github.com/nayeemahmed43/WeatherApp.git
 > cd WeatherApp
 > npm install
-> npm start
+> npm run react-start
 ```
 
-#### Not Familiar with Git?
-Click [here](https://github.com/StephenGrider/ReactStarter/releases) then download the .zip file.  Extract the contents of the zip file, then open your terminal, change to the project directory, and:
 
-```
-> npm install
-> npm start
-```
+
