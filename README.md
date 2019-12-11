@@ -14,7 +14,7 @@ Checkout this repo, install dependencies, then start the gulp process with the f
 > npm run react-start
 ```
 
-#Live: https://weather-app-na.herokuapp.com/
+# Live: https://weather-app-na.herokuapp.com/
 
 
 
